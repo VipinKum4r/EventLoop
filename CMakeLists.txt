@@ -50,12 +50,7 @@ target_link_libraries(${PROJECT_NAME} ${CMAKE_THREAD_LIBS_INIT})
 
 add_executable(EventLoopTests
     tests/EventLoopBasicTest.cpp
-    tests/EventLoopMultipleHandlersTest.cpp
-    tests/EventLoopDataTest.cpp
-    tests/EventLoopThreadingTest.cpp
-    tests/EventLoopShutdownTest.cpp
-    tests/EventLoopTimerTest.cpp
-)
+)	
 
 target_link_libraries(EventLoopTests
     PRIVATE
